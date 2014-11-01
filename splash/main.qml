@@ -36,6 +36,7 @@ Rectangle {
         sourceSize.width: width
         sourceSize.height: height
         source: "mlogo.png"
+        scale: 0.2
         fillMode: Image.PreserveAspectFit
 
         SequentialAnimation {
@@ -83,6 +84,7 @@ Rectangle {
         sourceSize.height: height
         source: "klogo.png"
         fillMode: Image.PreserveAspectFit
+        scale: 0.2
         visible: false
 
         SequentialAnimation {
